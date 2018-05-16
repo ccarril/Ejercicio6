@@ -3,7 +3,6 @@ body {
 	margin: 0;
 }
 
-
 .header {
 	width: 100%;
 	background-color: green;
@@ -23,10 +22,15 @@ body {
 
 .columna {
 	width: 33%;
-	background-color: black;
 	float: left;
-	height: 400px;
-	margin: 30px;
+	height: 700px;
+	padding: 30px;
 	top: 400px;
+	box-sizing: border-box;
+	border: solid 1px white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
 
+.img {
+	width: 100%;
 }
